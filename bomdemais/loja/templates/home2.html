@@ -4,6 +4,26 @@
 
 
 <head>
+
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WhatsApp Button</title>
+<style>
+/* Estilo para o botão flutuante */
+#whatsapp-button {
+  position: fixed;
+  bottom: 60px; /* Altere conforme necessário */
+  right: 10px; /* Altere conforme necessário */
+  z-index: 1000;
+  background-color: #25D366;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  cursor: pointer;
+  font-size: 20px;
+}
+</style>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -41,6 +61,10 @@
 </head>
 
 <body>
+  <!-- Botão flutuante do WhatsApp -->
+<a id="whatsapp-button" href="https://api.whatsapp.com/send?phone=SEUNUMERO&text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20com%20voc%C3%AA" target="_blank">
+  <i class="fab fa-whatsapp"></i> <!-- Ícone do WhatsApp -->
+</a>
 
   <!-- ======= Top Bar ======= -->
   <div id="topbar" class="d-flex align-items-center fixed-top">
