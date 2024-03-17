@@ -11,16 +11,16 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #000000;
+  color: #ffffff;
 }
 
 a {
-  color: #080808;
+  color: #ffffff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #0a0a0a;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -94,7 +94,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #0a0a0a;
+  background: #575644;
   color: #070707;
 }
 
@@ -112,7 +112,7 @@ h6 {
 --------------------------------------------------------------*/
 #topbar {
   /* Barra superioi*/
-  background: #f8cc0a;
+  background: #020202;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -125,12 +125,12 @@ h6 {
 /* contatos superior esquerdo*/
 #topbar .contact-info a {
   line-height: 1;
-  color: #0c0c0c;
+  color: #ffffff;
   transition: 0.3s;
 }
 
 #topbar .contact-info a:hover {
-  color: #f8f8f8;
+  color: #eeff02;
 }
 
 #topbar .contact-info i {
@@ -145,7 +145,7 @@ h6 {
 }
 /* link rede sociais lado direto*/
 #topbar .social-links a {
-  color: #050505;
+  color: #ffffff;
   padding-left: 15px;
   display: inline-block;
   line-height: 1px;
@@ -153,7 +153,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #fafbfc;
+  color: #eeff02;
 }
 
 #topbar .social-links a:first-child {
@@ -165,7 +165,7 @@ h6 {
 --------------------------------------------------------------*/
 #header {
   /* bara do menu */
-  background: #f8cc0a;
+  background: #020202;
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -188,7 +188,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #111111;
+  color: #ffffff;
 }
 
 #header .logo img {
@@ -200,7 +200,7 @@ h6 {
 */
 .appointment-btn {
   margin-left: 25px;
-  background: #0a0a0a;
+  background: #ffffff;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -211,8 +211,8 @@ h6 {
 }
 
 .appointment-btn:hover {
-  background: #0a0a0a;
-  color: #fff;
+  background: #eeff02;
+  color: #eeff02;
 }
 
 @media (max-width: 768px) {
@@ -256,10 +256,10 @@ h6 {
   align-items: center;
   justify-content: space-between;
   font-size: 14px;
-  color: #000000;
+  color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #ffffff;
   padding: 5px 2px;
 }
 
@@ -274,8 +274,8 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #000000;
-  border-color: #000000;
+  color: #ffffff;
+  border-color: #eeff02;
 }
 
 .navbar .dropdown ul {
@@ -433,7 +433,7 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: #2b2b2b;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -465,9 +465,9 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/padaria/16.jpeg") top center;
+  background: url("../img/padaria/capa4.jpg") top center;
   background-size: cover;
-  margin-bottom: -200px;
+  margin-bottom: -100px;
 }
 
 #hero .container {
@@ -480,11 +480,11 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
-  color: #000000;
+  color: #ffffff;
 }
 
 #hero h2 {
-  color: #070707;
+  color: #ffffff;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
@@ -501,11 +501,11 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   color: #b6408f;
-  background: #f8cc0a;
+  background: #ffffff;
 }
 
 #hero .btn-get-started:hover {
-  background: #f8cc0a;
+  background: #ffffff;
 }
 
 @media (min-width: 1024px) {
@@ -551,7 +551,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f1f7fd;
+  background-color: #2b2b2b;
 }
 
 .section-title {
@@ -565,7 +565,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #050505;
+  color: #ffffff;
 }
 
 .section-title h2::before {
@@ -574,7 +574,7 @@ section {
   display: block;
   width: 120px;
   height: 1px;
-  background: #ddd;
+  background: #000000;
   bottom: 1px;
   left: calc(50% - 60px);
 }
@@ -585,7 +585,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #f8cc0a;
+  background: #ffffff;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -659,6 +659,9 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
+#why-us{
+  background-color: #2b2b2b;
+}
 .why-us .content {
   padding: 30px;
   background: #1977cc;
@@ -723,16 +726,19 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+#about{
+  background-color: #2b2b2b;
+}
 .about .icon-boxes h4 {
   font-size: 18px;
-  color: #070707;
+  color: #ffffff;
   margin-bottom: 15px;
 }
 
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #2c4964;
+  color: #ffffff;
   margin-bottom: 15px;
 }
 
@@ -763,7 +769,7 @@ section {
 }
 
 .about .icon-box:hover .icon i {
-  color: #0c0c0c;
+  color: #ffffff;
 }
 
 .about .icon-box .title {
@@ -774,12 +780,12 @@ section {
 }
 
 .about .icon-box .title a {
-  color: #343a40;
+  color: #ffffff;
   transition: 0.3s;
 }
 
 .about .icon-box .title a:hover {
-  color: #0c0c0c;
+  color: #ffffff;
 }
 
 .about .icon-box .description {
@@ -789,7 +795,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/padaria/7.jpeg") center center no-repeat;
+  background: url("../img/padaria/equipe6.jpeg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -877,7 +883,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: #f1f7fd;
+  background: #2b2b2b;
   padding: 70px 0 60px;
 }
 
@@ -886,7 +892,7 @@ section {
   width: 100%;
   position: relative;
   text-align: center;
-  background: #fff;
+  background: #2b2b2b;
 }
 
 .counts .count-box i {
@@ -922,6 +928,9 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+#services{
+  background-color: #2b2b2b;
+}
 .services .icon-box {
   text-align: center;
   border: 1px solid #d5e1ed;
@@ -1103,6 +1112,9 @@ section {
 /*--------------------------------------------------------------
 # Departments
 --------------------------------------------------------------*/
+#departments{
+  background-color: #2b2b2b;
+}
 .departments {
   overflow: hidden;
 }
@@ -1166,12 +1178,12 @@ section {
 # Doctors
 --------------------------------------------------------------*/
 .doctors {
-  background: #fff;
+  background: #2b2b2b;
 }
 
 .doctors .member {
   position: relative;
-  box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
+  box-shadow: 0px 2px 15px rgba(248, 248, 248, 0.08);
   padding: 30px;
   border-radius: 10px;
 }
@@ -1447,6 +1459,9 @@ section {
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
+#gallery{
+  background-color: #2b2b2b;
+}
 .gallery .gallery-item {
   overflow: hidden;
   border-right: 3px solid #fff;
@@ -1464,9 +1479,12 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+#contact {
+  background-color: #2b2b2b;
+}
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #2b2b2b;
 }
 
 .contact .info i {
@@ -1488,14 +1506,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #070707;
+  color: #ffffff;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #070707;
+  color: #ffffff;
 }
 
 .contact .info .email,
@@ -1602,15 +1620,15 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #444444;
+  color: #ffffff;
   font-size: 14px;
-  background: #f1f7fd;
+  background: #000000;
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+  background: #2b2b2b;
+  box-shadow: 0px 2px 15px rgba(12, 12, 12, 0.1);
 }
 
 #footer .footer-top .footer-contact {
@@ -1653,7 +1671,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #f8cc0a;
+  color: #ffffff;
   font-size: 18px;
   line-height: 1;
 }
@@ -1677,7 +1695,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #f8cc0a;
+  color: #ffffff;
 }
 
 #footer .footer-newsletter {
@@ -1736,7 +1754,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #f8cc0a;
+  background: #ffffff;
   color: #080808;
   line-height: 1;
   padding: 8px 0;
